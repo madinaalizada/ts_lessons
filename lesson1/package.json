@@ -11,5 +11,10 @@
   "devDependencies": {
     "typescript": "^4.9.3",
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@types/alertify": "^0.3.31",
+    "alertifyjs": "^1.13.1",
+    "react-alertify-js": "^0.0.1"
   }
 }

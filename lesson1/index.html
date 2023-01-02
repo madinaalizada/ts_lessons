@@ -3,11 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Instagram</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <form id="form">
+        <label>Name: </label>
+        <br>
+        <input type="text" name="name"/>
+        <br>
+        <label>Last name: </label>
+        <br>
+        <input type="text" name="surname"/>
+        <br>
+        <label for="birthdate">BirthDate : </label>
+        <br>
+        <input type="date" name="birthdate"/>
+        <br>
+        <label for="gender">Cinsi : </label>
+        <br>
+        <select name="gender">
+          <option value="1">Kishi</option>
+          <option value="2">Qadin</option>
+          <option value="3">Diger</option>
+        </select>
+        <br>
+        <label>Password: </label>
+        <br>
+        <input type="password" name="password"/>
+        <br>
+        <button id="btn-submit">Add user</button>
+      </form>
+    </div>
     <script type="module" src="/src/main.ts"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js"></script>
   </body>
 </html>
