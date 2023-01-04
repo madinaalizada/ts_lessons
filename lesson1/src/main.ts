@@ -20,9 +20,9 @@ function getDayDiff(startDate: Date, endDate: Date): number {
 }
 
 enum Genders  {
-  Male,
-  Female,
-  Others
+  Male=1,
+  Female=2,
+  Others=3
 };
 
 // user.age = Math.floor(getDayDiff(new Date(bday), new Date())/365);

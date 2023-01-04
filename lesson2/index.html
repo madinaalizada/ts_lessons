@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Aptek</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="btn-find-pill">Find a pill</button>
+      <button id="btn-find-pharmacy">Find a pharmacy</button>
+      <button id="btn-add-pharmacy">Add a pharmacy</button>
+      <button id="btn-add-pill">Add a pill</button>
+
+      <div class="sections">
+        <div class="pharmacy-div">
+          <span>Pharmacy:</span>
+          <span class="pharmacy-name"></span>
+          <br>
+          <div>Pills:</div>
+          <table>
+            <thead>
+              <th>Name</th>
+              <th>Count</th>
+              <th>Price</th>
+            </thead>
+            <tbody id="ph-tbody">
+
+            </tbody>
+          </table>
+        </div>
+        <div class="pills-div">
+          <h3>Pills</h3>
+          <table>
+            <thead>
+              <th>Pill Name</th>
+              <th>Count</th>
+              <th>Price</th>
+              <th>Pharmacy</th>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
