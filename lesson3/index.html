@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Telebeler ucun form</title>
+  </head>
+  <body>
+    <div id="app">
+      <form id="application-form">
+<!--         
+o	Qiymətlər (hər dərs üçün)
+-->
+      <label for="fullname">Ad soyad</label>
+      <input type="text" name="fullname">
+      <label for="age">Yash</label>
+      <input type="text" name="age">
+      <label for="academic_year">Akademik il</label>
+      <input type="text" name="academic_year">
+      <label for="group">Qrup</label>
+      <input type="text" name="group">
+      <label for="search_section">Tedqiqatin ehate dairesi</label>
+      <input type="text" name="search_section">
+      <p>Dersler ucun qiymetler</p>
+      <div> 
+        <label for="sa_price">Sistemli analiz ve komputer modellesdirilmesi</label>
+        <input type="text" name="sa_price">
+        <label for="rs_price">Reqemsal sistemler</label>
+        <input type="text" name="rs_price">
+        <label for="m_price">Multikultralizm</label>
+        <input type="text" name="m_price">
+      </div>
+      <button id="btn-add">Add</button>
+      </form>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
