@@ -1,0 +1,22 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      animation: {},
+      keyframes: {
+        slide: {
+          "100%": {},
+          "0%": {},
+        },
+      },
+      fontFamily: {
+        poppins: "Poppins",
+      },
+      container: {
+        center: true,
+      },
+    },
+  },
+  plugins: [],
+};
